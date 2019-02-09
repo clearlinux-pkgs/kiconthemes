@@ -2,6 +2,7 @@
 # picked up automatically. One name per line, no whitespace.
 buildreq-kde
 karchive-dev
+kauth
 ki18n-dev
 kcoreaddons-dev
 kconfigwidgets-dev
