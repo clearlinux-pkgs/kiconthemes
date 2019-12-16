@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kiconthemes
-Version  : 5.64.0
-Release  : 22
-URL      : https://download.kde.org/stable/frameworks/5.64/kiconthemes-5.64.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.64/kiconthemes-5.64.0.tar.xz
-Source1 : https://download.kde.org/stable/frameworks/5.64/kiconthemes-5.64.0.tar.xz.sig
+Version  : 5.65.0
+Release  : 23
+URL      : https://download.kde.org/stable/frameworks/5.65/kiconthemes-5.65.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.65/kiconthemes-5.65.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.65/kiconthemes-5.65.0.tar.xz.sig
 Summary  : Support for icon themes
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -66,7 +66,6 @@ Requires: kiconthemes-bin = %{version}-%{release}
 Requires: kiconthemes-data = %{version}-%{release}
 Provides: kiconthemes-devel = %{version}-%{release}
 Requires: kiconthemes = %{version}-%{release}
-Requires: kiconthemes = %{version}-%{release}
 
 %description dev
 dev components for the kiconthemes package.
@@ -99,17 +98,17 @@ locales components for the kiconthemes package.
 
 
 %prep
-%setup -q -n kiconthemes-5.64.0
+%setup -q -n kiconthemes-5.65.0
+cd %{_builddir}/kiconthemes-5.65.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1573401297
+export SOURCE_DATE_EPOCH=1576531970
 mkdir -p clr-build
 pushd clr-build
-# -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -123,10 +122,10 @@ make  %{?_smp_mflags}  VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1573401297
+export SOURCE_DATE_EPOCH=1576531970
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kiconthemes
-cp %{_builddir}/kiconthemes-5.64.0/COPYING.LIB %{buildroot}/usr/share/package-licenses/kiconthemes/9a1929f4700d2407c70b507b3b2aaf6226a9543c
+cp %{_builddir}/kiconthemes-5.65.0/COPYING.LIB %{buildroot}/usr/share/package-licenses/kiconthemes/9a1929f4700d2407c70b507b3b2aaf6226a9543c
 pushd clr-build
 %make_install
 popd
@@ -169,7 +168,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5IconThemes.so.5
-/usr/lib64/libKF5IconThemes.so.5.64.0
+/usr/lib64/libKF5IconThemes.so.5.65.0
 /usr/lib64/qt5/plugins/designer/kiconthemes5widgets.so
 /usr/lib64/qt5/plugins/iconengines/KIconEnginePlugin.so
 
