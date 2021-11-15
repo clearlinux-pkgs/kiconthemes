@@ -5,11 +5,11 @@
 # Source0 file verified with key 0x58D0EE648A48B3BB (faure@kde.org)
 #
 Name     : kiconthemes
-Version  : 5.87.0
-Release  : 41
-URL      : https://download.kde.org/stable/frameworks/5.87/kiconthemes-5.87.0.tar.xz
-Source0  : https://download.kde.org/stable/frameworks/5.87/kiconthemes-5.87.0.tar.xz
-Source1  : https://download.kde.org/stable/frameworks/5.87/kiconthemes-5.87.0.tar.xz.sig
+Version  : 5.88.0
+Release  : 42
+URL      : https://download.kde.org/stable/frameworks/5.88/kiconthemes-5.88.0.tar.xz
+Source0  : https://download.kde.org/stable/frameworks/5.88/kiconthemes-5.88.0.tar.xz
+Source1  : https://download.kde.org/stable/frameworks/5.88/kiconthemes-5.88.0.tar.xz.sig
 Summary  : Support for icon themes
 Group    : Development/Tools
 License  : GPL-2.0 GPL-3.0 LGPL-2.0 LGPL-2.1 LGPL-3.0
@@ -101,15 +101,15 @@ locales components for the kiconthemes package.
 
 
 %prep
-%setup -q -n kiconthemes-5.87.0
-cd %{_builddir}/kiconthemes-5.87.0
+%setup -q -n kiconthemes-5.88.0
+cd %{_builddir}/kiconthemes-5.88.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1634436505
+export SOURCE_DATE_EPOCH=1637006989
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -125,19 +125,19 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1634436505
+export SOURCE_DATE_EPOCH=1637006989
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/kiconthemes
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/GPL-2.0-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/2a638514c87c4923c0570c55822620fad56f2a33
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/GPL-3.0-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/6091db0aead0d90182b93d3c0d09ba93d188f907
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/LGPL-2.0-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/20079e8f79713dce80ab09774505773c926afa2a
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kiconthemes/20079e8f79713dce80ab09774505773c926afa2a
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/LGPL-2.1-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/3c3d7573e137d48253731c975ecf90d74cfa9efe
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/LGPL-3.0-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/757b86330df80f81143d5916b3e92b4bcb1b1890
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/LicenseRef-KDE-Accepted-GPL.txt %{buildroot}/usr/share/package-licenses/kiconthemes/7d9831e05094ce723947d729c2a46a09d6e90275
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/LicenseRef-KDE-Accepted-GPL.txt %{buildroot}/usr/share/package-licenses/kiconthemes/7d9831e05094ce723947d729c2a46a09d6e90275
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/LicenseRef-KDE-Accepted-LGPL.txt %{buildroot}/usr/share/package-licenses/kiconthemes/e458941548e0864907e654fa2e192844ae90fc32
-cp %{_builddir}/kiconthemes-5.87.0/LICENSES/LicenseRef-KDE-Accepted-LGPL.txt %{buildroot}/usr/share/package-licenses/kiconthemes/e458941548e0864907e654fa2e192844ae90fc32
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/GPL-2.0-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/2a638514c87c4923c0570c55822620fad56f2a33
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/GPL-3.0-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/6091db0aead0d90182b93d3c0d09ba93d188f907
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/LGPL-2.0-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/20079e8f79713dce80ab09774505773c926afa2a
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/LGPL-2.0-or-later.txt %{buildroot}/usr/share/package-licenses/kiconthemes/20079e8f79713dce80ab09774505773c926afa2a
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/LGPL-2.1-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/3c3d7573e137d48253731c975ecf90d74cfa9efe
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/LGPL-3.0-only.txt %{buildroot}/usr/share/package-licenses/kiconthemes/757b86330df80f81143d5916b3e92b4bcb1b1890
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/LicenseRef-KDE-Accepted-GPL.txt %{buildroot}/usr/share/package-licenses/kiconthemes/7d9831e05094ce723947d729c2a46a09d6e90275
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/LicenseRef-KDE-Accepted-GPL.txt %{buildroot}/usr/share/package-licenses/kiconthemes/7d9831e05094ce723947d729c2a46a09d6e90275
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/LicenseRef-KDE-Accepted-LGPL.txt %{buildroot}/usr/share/package-licenses/kiconthemes/e458941548e0864907e654fa2e192844ae90fc32
+cp %{_builddir}/kiconthemes-5.88.0/LICENSES/LicenseRef-KDE-Accepted-LGPL.txt %{buildroot}/usr/share/package-licenses/kiconthemes/e458941548e0864907e654fa2e192844ae90fc32
 pushd clr-build
 %make_install
 popd
@@ -158,12 +158,14 @@ popd
 %files dev
 %defattr(-,root,root,-)
 /usr/include/KF5/KIconThemes/KIconButton
+/usr/include/KF5/KIconThemes/KIconColors
 /usr/include/KF5/KIconThemes/KIconDialog
 /usr/include/KF5/KIconThemes/KIconEffect
 /usr/include/KF5/KIconThemes/KIconEngine
 /usr/include/KF5/KIconThemes/KIconLoader
 /usr/include/KF5/KIconThemes/KIconTheme
 /usr/include/KF5/KIconThemes/kiconbutton.h
+/usr/include/KF5/KIconThemes/kiconcolors.h
 /usr/include/KF5/KIconThemes/kicondialog.h
 /usr/include/KF5/KIconThemes/kiconeffect.h
 /usr/include/KF5/KIconThemes/kiconengine.h
@@ -181,7 +183,7 @@ popd
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/libKF5IconThemes.so.5
-/usr/lib64/libKF5IconThemes.so.5.87.0
+/usr/lib64/libKF5IconThemes.so.5.88.0
 /usr/lib64/qt5/plugins/designer/kiconthemes5widgets.so
 /usr/lib64/qt5/plugins/iconengines/KIconEnginePlugin.so
 
