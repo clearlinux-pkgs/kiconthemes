@@ -61,6 +61,7 @@ libKF5IconThemes.so.5:_ZN11KIconDialog11newIconNameERK7QString
 libKF5IconThemes.so.5:_ZN11KIconDialog11qt_metacallEN11QMetaObject4CallEiPPv
 libKF5IconThemes.so.5:_ZN11KIconDialog11qt_metacastEPKc
 libKF5IconThemes.so.5:_ZN11KIconDialog11setIconSizeEi
+libKF5IconThemes.so.5:_ZN11KIconDialog15setSelectedIconERK7QString
 libKF5IconThemes.so.5:_ZN11KIconDialog17setCustomLocationERK7QString
 libKF5IconThemes.so.5:_ZN11KIconDialog17setStrictIconSizeEb
 libKF5IconThemes.so.5:_ZN11KIconDialog5setupEN11KIconLoader5GroupENS0_7ContextEbibbb
@@ -201,3 +202,5 @@ libKF5IconThemes.so.5:_ZThn16_N11KIconButtonD0Ev
 libKF5IconThemes.so.5:_ZThn16_N11KIconButtonD1Ev
 libKF5IconThemes.so.5:_ZThn16_N11KIconDialogD0Ev
 libKF5IconThemes.so.5:_ZThn16_N11KIconDialogD1Ev
+libKF5IconThemes.so.5:qt_plugin_instance
+libKF5IconThemes.so.5:qt_plugin_query_metadata
