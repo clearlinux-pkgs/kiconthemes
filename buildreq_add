@@ -12,3 +12,5 @@ kconfig
 kconfig-dev
 kwidgetsaddons-dev
 kitemviews-dev
+breeze-icons
+breeze-icons-dev
