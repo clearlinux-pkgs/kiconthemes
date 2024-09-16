@@ -1,201 +1,45 @@
-libKF6IconThemes.so.6:uintToHex(unsigned int, QChar*)
-libKF6IconThemes.so.6:KIconTheme::reconfigure()
-libKF6IconThemes.so.6:KIconTheme::defaultThemeName()
-libKF6IconThemes.so.6:KIconTheme::forceThemeForTests(QString const&)
-libKF6IconThemes.so.6:KIconTheme::list()
-libKF6IconThemes.so.6:KIconTheme::current()
-libKF6IconThemes.so.6:KIconTheme::initTheme()
-libKF6IconThemes.so.6:KIconTheme::KIconTheme(QString const&, QString const&, QString const&)
-libKF6IconThemes.so.6:KIconTheme::KIconTheme(QString const&, QString const&, QString const&)
-libKF6IconThemes.so.6:KIconTheme::~KIconTheme()
-libKF6IconThemes.so.6:KIconTheme::~KIconTheme()
-libKF6IconThemes.so.6:KIconColors::setHighlight(QColor const&)
-libKF6IconThemes.so.6:KIconColors::setActiveText(QColor const&)
-libKF6IconThemes.so.6:KIconColors::setBackground(QColor const&)
-libKF6IconThemes.so.6:KIconColors::setNeutralText(QColor const&)
-libKF6IconThemes.so.6:KIconColors::setNegativeText(QColor const&)
-libKF6IconThemes.so.6:KIconColors::setPositiveText(QColor const&)
-libKF6IconThemes.so.6:KIconColors::setHighlightedText(QColor const&)
-libKF6IconThemes.so.6:KIconColors::setText(QColor const&)
-libKF6IconThemes.so.6:KIconColors::setAccent(QColor const&)
-libKF6IconThemes.so.6:KIconColors::KIconColors(QColor const&)
-libKF6IconThemes.so.6:KIconColors::KIconColors(QPalette const&)
-libKF6IconThemes.so.6:KIconColors::KIconColors(KIconColors const&)
-libKF6IconThemes.so.6:KIconColors::KIconColors()
-libKF6IconThemes.so.6:KIconColors::KIconColors(QColor const&)
-libKF6IconThemes.so.6:KIconColors::KIconColors(QPalette const&)
-libKF6IconThemes.so.6:KIconColors::KIconColors(KIconColors const&)
 libKF6IconThemes.so.6:KIconColors::KIconColors()
 libKF6IconThemes.so.6:KIconColors::~KIconColors()
-libKF6IconThemes.so.6:KIconColors::~KIconColors()
-libKF6IconThemes.so.6:KIconColors::operator=(KIconColors const&)
-libKF6IconThemes.so.6:KIconEffect::deSaturate(QImage&, float)
-libKF6IconThemes.so.6:KIconEffect::toDisabled(QImage&)
-libKF6IconThemes.so.6:KIconEffect::toDisabled(QPixmap&)
-libKF6IconThemes.so.6:KIconEffect::toMonochrome(QImage&, QColor const&, QColor const&, float)
+libKF6IconThemes.so.6:KIconEffect::KIconEffect()
+libKF6IconThemes.so.6:KIconEffect::init()
 libKF6IconThemes.so.6:KIconEffect::semiTransparent(QImage&)
 libKF6IconThemes.so.6:KIconEffect::semiTransparent(QPixmap&)
-libKF6IconThemes.so.6:KIconEffect::init()
-libKF6IconThemes.so.6:KIconEffect::toGray(QImage&, float)
-libKF6IconThemes.so.6:KIconEffect::overlay(QImage&, QImage&)
-libKF6IconThemes.so.6:KIconEffect::toGamma(QImage&, float)
-libKF6IconThemes.so.6:KIconEffect::colorize(QImage&, QColor const&, float)
 libKF6IconThemes.so.6:KIconEffect::toActive(QImage&)
 libKF6IconThemes.so.6:KIconEffect::toActive(QPixmap&)
-libKF6IconThemes.so.6:KIconEffect::KIconEffect()
-libKF6IconThemes.so.6:KIconEffect::KIconEffect()
+libKF6IconThemes.so.6:KIconEffect::toDisabled(QImage&)
+libKF6IconThemes.so.6:KIconEffect::toDisabled(QPixmap&)
 libKF6IconThemes.so.6:KIconEffect::~KIconEffect()
-libKF6IconThemes.so.6:KIconEffect::~KIconEffect()
-libKF6IconThemes.so.6:KIconEngine::actualSize(QSize const&, QIcon::Mode, QIcon::State)
-libKF6IconThemes.so.6:KIconEngine::createPixmap(QSize const&, double, QIcon::Mode, QIcon::State)
-libKF6IconThemes.so.6:KIconEngine::scaledPixmap(QSize const&, QIcon::Mode, QIcon::State, double)
-libKF6IconThemes.so.6:KIconEngine::availableSizes(QIcon::Mode, QIcon::State)
-libKF6IconThemes.so.6:KIconEngine::read(QDataStream&)
-libKF6IconThemes.so.6:KIconEngine::paint(QPainter*, QRect const&, QIcon::Mode, QIcon::State)
-libKF6IconThemes.so.6:KIconEngine::isNull()
-libKF6IconThemes.so.6:KIconEngine::pixmap(QSize const&, QIcon::Mode, QIcon::State)
 libKF6IconThemes.so.6:KIconEngine::iconName()
-libKF6IconThemes.so.6:KIconEngine::KIconEngine(QString const&, KIconLoader*)
-libKF6IconThemes.so.6:KIconEngine::KIconEngine(QString const&, KIconLoader*, QList<QString> const&)
-libKF6IconThemes.so.6:KIconEngine::KIconEngine(QString const&, KIconColors const&, KIconLoader*)
-libKF6IconThemes.so.6:KIconEngine::KIconEngine(QString const&, KIconColors const&, KIconLoader*, QList<QString> const&)
-libKF6IconThemes.so.6:KIconEngine::KIconEngine(QString const&, KIconLoader*)
-libKF6IconThemes.so.6:KIconEngine::KIconEngine(QString const&, KIconLoader*, QList<QString> const&)
-libKF6IconThemes.so.6:KIconEngine::KIconEngine(QString const&, KIconColors const&, KIconLoader*)
-libKF6IconThemes.so.6:KIconEngine::KIconEngine(QString const&, KIconColors const&, KIconLoader*, QList<QString> const&)
-libKF6IconThemes.so.6:KIconEngine::~KIconEngine()
-libKF6IconThemes.so.6:KIconEngine::~KIconEngine()
+libKF6IconThemes.so.6:KIconEngine::isNull()
+libKF6IconThemes.so.6:KIconEngine::read(QDataStream&)
 libKF6IconThemes.so.6:KIconEngine::~KIconEngine()
 libKF6IconThemes.so.6:KIconLoader::emitChange(KIconLoader::Group)
-libKF6IconThemes.so.6:KIconLoader::iconChanged(int)
-libKF6IconThemes.so.6:KIconLoader::qt_metacall(QMetaObject::Call, int, void**)
-libKF6IconThemes.so.6:KIconLoader::qt_metacast(char const*)
-libKF6IconThemes.so.6:KIconLoader::reconfigure(QString const&, QList<QString> const&)
-libKF6IconThemes.so.6:KIconLoader::resetPalette()
-libKF6IconThemes.so.6:KIconLoader::newIconLoader()
-libKF6IconThemes.so.6:KIconLoader::setCustomPalette(QPalette const&)
-libKF6IconThemes.so.6:KIconLoader::iconLoaderSettingsChanged()
 libKF6IconThemes.so.6:KIconLoader::global()
+libKF6IconThemes.so.6:KIconLoader::iconChanged(int)
+libKF6IconThemes.so.6:KIconLoader::iconLoaderSettingsChanged()
+libKF6IconThemes.so.6:KIconLoader::newIconLoader()
+libKF6IconThemes.so.6:KIconLoader::resetPalette()
 libKF6IconThemes.so.6:KIconLoader::unknown()
-libKF6IconThemes.so.6:KIconLoader::addAppDir(QString const&, QString const&)
-libKF6IconThemes.so.6:KIconLoader::KIconLoader(QString const&, QList<QString> const&, QObject*)
-libKF6IconThemes.so.6:KIconLoader::KIconLoader(QString const&, QList<QString> const&, QObject*)
 libKF6IconThemes.so.6:KIconLoader::~KIconLoader()
-libKF6IconThemes.so.6:KIconLoader::~KIconLoader()
-libKF6IconThemes.so.6:KIconLoader::~KIconLoader()
-libKF6IconThemes.so.6:KDE::icon(QString const&, KIconLoader*)
-libKF6IconThemes.so.6:KDE::icon(QString const&, KIconColors const&, KIconLoader*)
-libKF6IconThemes.so.6:KDE::icon(QString const&, QList<QString> const&, KIconLoader*)
-libKF6IconThemes.so.6:KIconTheme::hasContext(KIconLoader::Context) const
-libKF6IconThemes.so.6:KIconTheme::queryIcons(int, KIconLoader::Context) const
-libKF6IconThemes.so.6:KIconTheme::querySizes(KIconLoader::Group) const
-libKF6IconThemes.so.6:KIconTheme::screenshot() const
-libKF6IconThemes.so.6:KIconTheme::defaultSize(KIconLoader::Group) const
-libKF6IconThemes.so.6:KIconTheme::description() const
-libKF6IconThemes.so.6:KIconTheme::internalName() const
-libKF6IconThemes.so.6:KIconTheme::iconPathByName(QString const&, int, KIconLoader::MatchType) const
-libKF6IconThemes.so.6:KIconTheme::iconPathByName(QString const&, int, KIconLoader::MatchType, double) const
-libKF6IconThemes.so.6:KIconTheme::followsColorScheme() const
-libKF6IconThemes.so.6:KIconTheme::queryIconsByContext(int, KIconLoader::Context) const
-libKF6IconThemes.so.6:KIconTheme::dir() const
-libKF6IconThemes.so.6:KIconTheme::name() const
-libKF6IconThemes.so.6:KIconTheme::depth() const
-libKF6IconThemes.so.6:KIconTheme::example() const
-libKF6IconThemes.so.6:KIconTheme::isValid() const
-libKF6IconThemes.so.6:KIconTheme::iconPath(QString const&, int, KIconLoader::MatchType) const
-libKF6IconThemes.so.6:KIconTheme::iconPath(QString const&, int, KIconLoader::MatchType, double) const
-libKF6IconThemes.so.6:KIconTheme::inherits() const
-libKF6IconThemes.so.6:KIconTheme::isHidden() const
-libKF6IconThemes.so.6:KIconColors::activeText() const
-libKF6IconThemes.so.6:KIconColors::background() const
-libKF6IconThemes.so.6:KIconColors::stylesheet(KIconLoader::States) const
-libKF6IconThemes.so.6:KIconColors::neutralText() const
-libKF6IconThemes.so.6:KIconColors::negativeText() const
-libKF6IconThemes.so.6:KIconColors::positiveText() const
-libKF6IconThemes.so.6:KIconColors::highlightedText() const
-libKF6IconThemes.so.6:KIconColors::text() const
-libKF6IconThemes.so.6:KIconColors::accent() const
-libKF6IconThemes.so.6:KIconColors::highlight() const
-libKF6IconThemes.so.6:KIconEffect::fingerprint(int, int) const
-libKF6IconThemes.so.6:KIconEffect::doublePixels(QImage const&) const
-libKF6IconThemes.so.6:KIconEffect::apply(QImage const&, int, float, QColor const&, QColor const&, bool) const
-libKF6IconThemes.so.6:KIconEffect::apply(QImage const&, int, float, QColor const&, bool) const
-libKF6IconThemes.so.6:KIconEffect::apply(QImage const&, int, int) const
-libKF6IconThemes.so.6:KIconEffect::apply(QPixmap const&, int, float, QColor const&, QColor const&, bool) const
-libKF6IconThemes.so.6:KIconEffect::apply(QPixmap const&, int, float, QColor const&, bool) const
-libKF6IconThemes.so.6:KIconEffect::apply(QPixmap const&, int, int) const
-libKF6IconThemes.so.6:KIconEffect::hasEffect(int, int) const
-libKF6IconThemes.so.6:KIconEngine::key() const
-libKF6IconThemes.so.6:KIconEngine::clone() const
-libKF6IconThemes.so.6:KIconEngine::write(QDataStream&) const
-libKF6IconThemes.so.6:KIconLoader::hasContext(KIconLoader::Context) const
-libKF6IconThemes.so.6:KIconLoader::iconEffect() const
-libKF6IconThemes.so.6:KIconLoader::metaObject() const
-libKF6IconThemes.so.6:KIconLoader::queryIcons(int, KIconLoader::Context) const
-libKF6IconThemes.so.6:KIconLoader::currentSize(KIconLoader::Group) const
-libKF6IconThemes.so.6:KIconLoader::searchPaths() const
-libKF6IconThemes.so.6:KIconLoader::drawOverlays(QList<QString> const&, QPixmap&, KIconLoader::Group, int) const
-libKF6IconThemes.so.6:KIconLoader::loadAnimated(QString const&, KIconLoader::Group, int) const
-libKF6IconThemes.so.6:KIconLoader::customPalette() const
-libKF6IconThemes.so.6:KIconLoader::loadScaledIcon(QString const&, KIconLoader::Group, double, QSize const&, int, QList<QString> const&, QString*, bool) const
-libKF6IconThemes.so.6:KIconLoader::loadScaledIcon(QString const&, KIconLoader::Group, double, QSize const&, int, QList<QString> const&, QString*, bool, std::optional<KIconColors> const&) const
-libKF6IconThemes.so.6:KIconLoader::loadScaledIcon(QString const&, KIconLoader::Group, double, int, int, QList<QString> const&, QString*, bool) const
-libKF6IconThemes.so.6:KIconLoader::queryIconsByDir(QString const&) const
-libKF6IconThemes.so.6:KIconLoader::hasCustomPalette() const
-libKF6IconThemes.so.6:KIconLoader::loadMimeTypeIcon(QString const&, KIconLoader::Group, int, int, QList<QString> const&, QString*) const
-libKF6IconThemes.so.6:KIconLoader::queryIconsByContext(int, KIconLoader::Context) const
-libKF6IconThemes.so.6:KIconLoader::theme() const
-libKF6IconThemes.so.6:KIconLoader::hasIcon(QString const&) const
-libKF6IconThemes.so.6:KIconLoader::iconPath(QString const&, int, bool) const
-libKF6IconThemes.so.6:KIconLoader::iconPath(QString const&, int, bool, double) const
-libKF6IconThemes.so.6:KIconLoader::loadIcon(QString const&, KIconLoader::Group, int, int, QList<QString> const&, QString*, bool) const
-libKF6IconThemes.so.6:KIconLoader::loadMovie(QString const&, KIconLoader::Group, int, QObject*) const
-libKF6IconThemes.so.6:KIconLoader::moviePath(QString const&, KIconLoader::Group, int) const
+libKF6IconThemes.so.6:KIconTheme::current()
+libKF6IconThemes.so.6:KIconTheme::defaultThemeName()
+libKF6IconThemes.so.6:KIconTheme::initTheme()
+libKF6IconThemes.so.6:KIconTheme::list()
+libKF6IconThemes.so.6:KIconTheme::reconfigure()
+libKF6IconThemes.so.6:KIconTheme::~KIconTheme()
 libKF6IconThemes.so.6:qt_plugin_instance
 libKF6IconThemes.so.6:qt_plugin_query_metadata_v2
-libKF6IconWidgets.so.6:KIconButton::iconChanged(QString const&)
-libKF6IconWidgets.so.6:KIconButton::qt_metacall(QMetaObject::Call, int, void**)
-libKF6IconWidgets.so.6:KIconButton::qt_metacast(char const*)
-libKF6IconWidgets.so.6:KIconButton::setIconSize(int)
-libKF6IconWidgets.so.6:KIconButton::setIconType(KIconLoader::Group, KIconLoader::Context, bool)
-libKF6IconWidgets.so.6:KIconButton::setButtonIconSize(int)
-libKF6IconWidgets.so.6:KIconButton::setStrictIconSize(bool)
-libKF6IconWidgets.so.6:KIconButton::setIcon(QIcon const&)
-libKF6IconWidgets.so.6:KIconButton::setIcon(QString const&)
+libKF6IconWidgets.so.6:KIconButton::KIconButton(QWidget*)
 libKF6IconWidgets.so.6:KIconButton::resetIcon()
-libKF6IconWidgets.so.6:KIconButton::KIconButton(QWidget*)
-libKF6IconWidgets.so.6:KIconButton::KIconButton(QWidget*)
+libKF6IconWidgets.so.6:KIconButton::setButtonIconSize(int)
+libKF6IconWidgets.so.6:KIconButton::setIconSize(int)
+libKF6IconWidgets.so.6:KIconButton::setStrictIconSize(bool)
 libKF6IconWidgets.so.6:KIconButton::~KIconButton()
-libKF6IconWidgets.so.6:KIconButton::~KIconButton()
-libKF6IconWidgets.so.6:KIconButton::~KIconButton()
+libKF6IconWidgets.so.6:KIconDialog::KIconDialog(QWidget*)
 libKF6IconWidgets.so.6:KIconDialog::openDialog()
-libKF6IconWidgets.so.6:KIconDialog::showDialog()
-libKF6IconWidgets.so.6:KIconDialog::newIconName(QString const&)
-libKF6IconWidgets.so.6:KIconDialog::qt_metacall(QMetaObject::Call, int, void**)
-libKF6IconWidgets.so.6:KIconDialog::qt_metacast(char const*)
 libKF6IconWidgets.so.6:KIconDialog::setIconSize(int)
-libKF6IconWidgets.so.6:KIconDialog::setSelectedIcon(QString const&)
-libKF6IconWidgets.so.6:KIconDialog::setCustomLocation(QString const&)
 libKF6IconWidgets.so.6:KIconDialog::setStrictIconSize(bool)
-libKF6IconWidgets.so.6:KIconDialog::setup(KIconLoader::Group, KIconLoader::Context, bool, int, bool, bool, bool)
-libKF6IconWidgets.so.6:KIconDialog::slotOk()
-libKF6IconWidgets.so.6:KIconDialog::getIcon(KIconLoader::Group, KIconLoader::Context, bool, int, bool, QWidget*, QString const&)
+libKF6IconWidgets.so.6:KIconDialog::showDialog()
 libKF6IconWidgets.so.6:KIconDialog::showEvent(QShowEvent*)
-libKF6IconWidgets.so.6:KIconDialog::KIconDialog(QWidget*)
-libKF6IconWidgets.so.6:KIconDialog::KIconDialog(QWidget*)
+libKF6IconWidgets.so.6:KIconDialog::slotOk()
 libKF6IconWidgets.so.6:KIconDialog::~KIconDialog()
-libKF6IconWidgets.so.6:KIconDialog::~KIconDialog()
-libKF6IconWidgets.so.6:KIconDialog::~KIconDialog()
-libKF6IconWidgets.so.6:KPixmapSequenceLoader::load(QString const&, int)
-libKF6IconWidgets.so.6:KIconButton::metaObject() const
-libKF6IconWidgets.so.6:KIconButton::buttonIconSize() const
-libKF6IconWidgets.so.6:KIconButton::strictIconSize() const
-libKF6IconWidgets.so.6:KIconButton::icon() const
-libKF6IconWidgets.so.6:KIconButton::iconSize() const
-libKF6IconWidgets.so.6:KIconDialog::metaObject() const
-libKF6IconWidgets.so.6:KIconDialog::strictIconSize() const
-libKF6IconWidgets.so.6:KIconDialog::iconSize() const
-libKF6IconWidgets.so.6:non-virtual thunk to KIconButton::~KIconButton()
-libKF6IconWidgets.so.6:non-virtual thunk to KIconButton::~KIconButton()
-libKF6IconWidgets.so.6:non-virtual thunk to KIconDialog::~KIconDialog()
-libKF6IconWidgets.so.6:non-virtual thunk to KIconDialog::~KIconDialog()
